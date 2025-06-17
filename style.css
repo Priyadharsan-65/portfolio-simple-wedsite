@@ -1,0 +1,133 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+
+  }
+
+  body {
+      font-family: "Young Serif", serif;
+
+  }
+
+  .container {
+      padding: 50px;
+  }
+
+  .card__heading {
+      background-color: black;
+      color: white;
+      padding: 20px;
+  }
+
+  .card__heading a {
+      color: aliceblue;
+      background-color: lightcoral;
+      border: solid white 1px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+  }
+
+  .card__heading h1 {
+      font-size: 60px;
+  }
+
+  .card__heading p {
+      font-size: 30px;
+      margin-top: 10px;
+  }
+
+  .section-two,
+  .section-three,
+  .section-four,
+  .section-five {
+      margin-top: 20px;
+  }
+
+  .section-two__desc,
+  .section-three__desc,
+  .section-four__desc,
+  .section-five__desc {
+      margin-top: 10px;
+  }
+
+  .section-five {
+      background-color: black;
+      color: bisque;
+      padding: 20px;
+
+  }
+
+  .section-five__tittle a {
+      color: skyblue;
+      padding: 2px;
+
+
+  }
+
+  .section-five__tittle p {
+
+      padding: 2px;
+
+
+
+  }
+
+  .section-three li,
+  .section-four li {
+      list-style: none;
+
+  }
+
+  .section-three {
+      background-color: #6462fd;
+      color: black;
+      display: inline-block;
+      padding: 20px;
+      height: 200px;
+      border-radius: 10px;
+      vertical-align: top;
+  }
+
+  .section-four {
+      background-color: bisque;
+      padding: 20px;
+      display: inline-block;
+      height: 200px;
+      border-radius: 10px;
+      vertical-align: top;
+      width: 400px;
+      vertical-align: top;
+  }
+
+
+.contect-form{
+    margin-top: 20px;
+
+}
+.contect-form__input,.contect-form__textarea,.contect-form__submit{
+margin-top: 10px;
+}
+
+.contect-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contect-form__textarea{
+
+       padding: 10px;
+    border-bottom: solid black 1px;
+
+}
+.contect-form__submit{
+  padding: 10px;
+  background-color: #6462fd;
+  color: aliceblue;
+  border: none;
+}
